@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.all{
+    width: 1463px;
+    height: 500px;
+    background-image: url("../image/background_1.png");
+    background-size: 1463px 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -10;
+    margin: 0 auto;
+}
+.top .top-nav{
+    width: 1463px;
+    background-color: #ad1516;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+}
+.top .top-nav table,td{
+    border-collapse: collapse;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+td a{
+    color: white;
+}
+.top .img_1{
+    width: 1000px;
+    height: 150px;
+    margin: 40px 240px;
+}
+.center{
+    background-color: white;
+    margin: 0 240px;
+}
+h1{
+    text-align: center;
+}
+.center .one{
+    margin: 30px 50px;
+}
+.center .one .img_2{
+    width: 700px;
+    height: 450px;
+    margin: 20px 50px;
+}
+
+
+
+
+.linkes {
+    text-align: center;
+    list-style: none;
+    margin: 20px 220px;
+    height: 18px;
+}
+.linkes>li {
+    display: inline-block;
+}
+/*li后面的li添加*/
+.linkes>li+li::before{
+    content: "|";
+    margin:0 8px;
+}
+.footer{
+    background-color: #fafafa;
+    padding: 30px 220px;
+    margin: 50px 0;
+}
+.footer .text{
+    text-align: center;
+}
+.return_top{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    right: 40px;
+    bottom: 40px;
+}
+.return_top .img_foot{
+    width: 50px;
+    height: 50px;
+}

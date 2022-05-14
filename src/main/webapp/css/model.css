@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.all{
+    width: 1463px;
+    height: 450px;
+    background-image: linear-gradient(to top, #fafafa,#ad1516);
+    position: absolute;
+    margin-top: 20px;
+}
+.top .top-nav{
+    width: 1463px;
+    background-color: #ad1516;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+}
+.top .top-nav table,td{
+    border-collapse: collapse;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+td a{
+    color: white;
+}
+.center{
+    margin: 20px 220px;
+    background-color: white;
+}
+.center h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.center .img_1{
+    width: 650px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.center .img_1 img{
+    width: 650px;
+    height: 300px;
+}
+h3{
+    text-align: center;
+}
+.center .flex{
+    display: flex;
+    margin: 30px 50px 20px 50px;
+}
+.center .one .img2_1 img{
+    width: 400px;
+    height: 500px;
+    margin-left: 30px;
+}
+.center .two .img2_2 img{
+    width: 400px;
+    height: 500px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.center .three .img2_3 img{
+    width: 400px;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.center .four .img2_4 img{
+    width: 400px;
+    height: 500px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.center .five .img2_5 img{
+    width: 400px;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.center .six .img2_6 img{
+    width: 450px;
+    height: 600px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.center .seven .img2_7 img{
+    width: 300px;
+    height: 450px;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.linkes {
+    text-align: center;
+    list-style: none;
+    margin: 20px 220px;
+    height: 18px;
+}
+.linkes>li {
+    display: inline-block;
+}
+/*li后面的li添加*/
+.linkes>li+li::before{
+    content: "|";
+    margin:0 8px;
+}
+.footer{
+    background-color: #fafafa;
+    padding: 30px 220px;
+    margin: 50px 0;
+}
+.footer .text{
+    text-align: center;
+}
+.return_top{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    right: 40px;
+    bottom: 40px;
+}
+.return_top .img_foot{
+    width: 50px;
+    height: 50px;
+}

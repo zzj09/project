@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.all{
+    width: 1463px;
+    height: 500px;
+    background-image: url('../image/n_bg.jpg');
+    background-size: 1463px 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -10;
+    margin: 0 auto;
+}
+.top{
+    margin: 0 220px;
+}
+.top_top{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.top_nav_img{
+    position: absolute;
+    margin-left: -1350px;
+    margin-top: 70px;
+    z-index: -5;
+}
+.top_img_tuanhui{
+    position: absolute;
+    z-index: -4;
+}
+.top_nav{
+    margin-top: 75px;
+    height:44px;
+}
+.top_nav ul{
+    width:800px;
+    height:44px;
+    margin:0 auto;
+}
+.top_nav li{
+    float:left;
+    line-height:44px;
+    list-style: none;
+}
+.top_nav a{
+    color:#fff;
+    font-size:16px;
+    margin: 0 50px;
+    float:left;
+}
+#login{
+    color: white;
+}
+.center_one{
+    margin: 20px 220px;
+    background-color: white;
+}
+h2{
+    color: #ad161c;
+    text-align: center;
+}
+.center_one_flex{
+    display: flex;
+}
+.center_one_flex .img .img_1{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 500px;
+    height: 350px;
+}
+.center_one_flex .text .right{
+    margin: 20px 10px 10px 20px;
+}
+.center_one_flex .text .right h3{
+    color: #e73636;
+    margin-bottom: 20px;
+}
+.center_two{
+    margin: 20px 220px;
+    background-color: white;
+}
+.center_two_flex{
+    margin-top: 20px;
+    display: flex;
+}
+.center_two_flex .img .img_2{
+    width: 550px;
+    height: 300px;
+}
+.center_two_flex .text{
+    margin: 0 20px;
+    font-size: 19px;
+}
+.center_three{
+    margin: 20px 220px;
+    background-color: white;
+}
+.center_three_flex{
+    margin-top: 20px;
+    display: flex;
+}
+.center_three_flex .img .img_3{
+    width: 550px;
+    height: 300px;
+}
+.center_three_flex .text{
+    margin: 20px 30px;
+    font-size: 20px;
+}
+.linkes {
+    text-align: center;
+    list-style: none;
+    margin: 20px 220px;
+    height: 18px;
+}
+.linkes>li {
+    display: inline-block;
+}
+/*li后面的li添加*/
+.linkes>li+li::before{
+    content: "|";
+    margin:0 8px;
+}
+.footer{
+    background-color: #fafafa;
+    padding: 30px 220px;
+    margin: 50px 0;
+}
+.footer .text{
+    text-align: center;
+}
+.return_top{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    right: 40px;
+    bottom: 40px;
+}
+.return_top .img_4{
+    width: 50px;
+    height: 50px;
+}
+
+
